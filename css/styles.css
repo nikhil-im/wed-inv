@@ -1,0 +1,274 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+.top-container{
+    
+    position: relative;
+    padding: 50px 0 50px 0;
+    background-color: #EAF6F6;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+.intro{
+    width: 100%;
+}
+.neha-img{
+    float: right;
+    margin-right: 10rem;
+}
+.abhi-img{
+    float: left;
+    margin-left: 10rem;
+}
+.card1{
+    margin-left: 5rem;
+}
+.card2{
+    margin-right: 5rem;
+}
+.card3{
+    margin: 0 15rem;
+}
+.groom-parents{
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+}
+
+.and{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.date{
+    font-size: 3rem;
+}
+.contact{
+    margin-bottom: 3rem;
+}
+.rairec{
+    margin-top: 3.5rem;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    color: #d1e2e2;
+    padding: 50px 0 20px;
+   
+}
+
+
+h1{
+    font-size: 5.625rem;/*1em=16px=100%*/
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+    /*width: 10%;
+    margin: 0 auto 0 auto; another way to center*/
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+ 
+.intro{
+    width: 100%;
+    margin: auto auto 3rem ;
+    
+}
+.weds{
+    margin: 0 0 2rem 20rem;
+    font-family: 'Sassy Frass', cursive;
+}
+.fa-heart{
+    color: red;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+h6{
+    font-size: 0.7rem;
+}
+p{
+    font-size: 2rem;
+    line-height: 2;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    
+}
+
+/*
+.skill-desc{
+    clear: left;
+}
+.cook-desc{
+    clear: right;
+}
+*/
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+hr{
+    border-color: #b2e6e6;
+    border-style: dotted none none;
+    border-width: 5px;
+    width: 5%;
+}
+.b{
+    color: #EAF6F6;
+    font-size: 0.90rem;
+    padding: 20px 0;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color:#EAF6F6;
+}
+.c{
+    margin-bottom: 50px;
+}
+
+@media (max-width: 992px) {
+
+    body{
+        margin: 0px;
+        max-width: 100%;
+        overflow-x: hidden;
+        font-family: 'Merriweather', serif;
+        color: #40514E;
+    }
+
+    .top-container{
+    
+        position: relative;
+        padding: 10px 0 50px 0;
+        background-color: #EAF6F6;
+    }
+    h1{
+        font-size: 3rem;
+        line-height: 2;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    h6{
+        margin-top: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    
+    .groom-parents{
+        width: 90%;
+        margin: 0 1rem;
+        font-size: 1rem;
+    }
+    
+
+    .intro{
+        font-size: 1rem;
+        width: 80%;
+        margin: auto;
+        padding-bottom: 2rem;
+        
+    }
+
+    .middle-container{
+        margin: 70px 0;
+    }
+    .neha-img{
+        float: none;
+        margin: auto;
+    }
+    .abhi-img{
+        float: none;
+        margin: auto;
+    }
+    .weds{
+        margin:auto auto 1rem;
+        font-size: 1.5rem;
+    }
+
+    .dtv{
+        margin-top: 5rem;
+    }
+    .and{
+        margin: 1.5rem 0 3rem 0;
+        font-size: 1.5rem;
+    }
+
+    .date{
+        font-size: 1.2rem;
+    }
+    .time{
+        font-size: 1.2rem;
+    }
+
+    .card1{
+        margin: 0 1rem 3rem 1rem ;
+    }
+    .card2{
+        margin: 0 1rem ;
+    }
+    .rairec{
+        margin-top: 0.8rem;
+    }
+    .card3{     
+        margin: 0 1rem ;
+    }
+    .fa-location-dot{
+        margin-right: 1rem;
+    }
+    .fa-heart{
+        color: red;
+    }
+    .bottom-container{
+        color: #EAF6F6;
+    }
+
+    
+  }
+
